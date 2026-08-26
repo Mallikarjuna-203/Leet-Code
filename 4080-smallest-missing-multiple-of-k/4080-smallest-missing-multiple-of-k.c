@@ -15,7 +15,6 @@ int missingMultiple(int* nums, int numsSize, int k) {
                 break;
             }
         }
-
         if (found == 0)
         {
             return multiple;
