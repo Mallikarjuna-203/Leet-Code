@@ -5,13 +5,10 @@ bool isPalindrome(int x) {
     {
         remd=temp%10+remd*10;
         temp/=10;
-
     }
     if(remd==x)
     {
         return true;
     }
         return false;
-    
-    
 }
